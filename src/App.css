@@ -10,7 +10,7 @@
 
 .star {
   position: absolute;
-  background-color: white;
+  background-color: #ffdd00;
   border-radius: 50%;
   animation: twinkle infinite, moveStar infinite;
 }

@@ -21,7 +21,7 @@ const StarryBackground = () => {
         const generateStars = () => {
             const newStars: Star[] = [];
             for (let i = 0; i < 100; i++) {
-                const size = Math.random() * 2;
+                const size = 2;
                 const position = {
                     top: Math.random() * 100 + 'vh',
                     left: Math.random() * 100 + 'vw',
